@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="text" />
+            <item index="1" class="java.lang.String" itemvalue="variant" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="57" name="JavaScript" />
+        <language minSize="106" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlDeprecatedAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="value" />
+            <item index="1" class="java.lang.String" itemvalue="href" />
+            <item index="2" class="java.lang.String" itemvalue="align" />
+            <item index="3" class="java.lang.String" itemvalue="for" />
+            <item index="4" class="java.lang.String" itemvalue="autocomplete" />
+            <item index="5" class="java.lang.String" itemvalue="tabindex" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E265" />
+          <option value="W292" />
+          <option value="E302" />
+          <option value="E303" />
+          <option value="E266" />
+          <option value="E304" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="first_project.first_project.urls.first_app" />
+          <option value="first_project.first_project.urls.views" />
+          <option value="Project1.App1.models.AccessRecord.objects" />
+          <option value="Project2.App1.models.User.*" />
+          <option value="Project_1.apis.models.Model.*" />
+          <option value="blogapi.posts.models.Post.*" />
+          <option value="backend.todo.models.Todos.*" />
+          <option value="Assignment_4.api_app.models.Info.as_view" />
+          <option value="Assignment_4.api_app.models.Info.*" />
+          <option value="Assignment_4.api_app.views.*" />
+          <option value="server.products.models.Product.*" />
+          <option value="server.products.models.Info.*" />
+          <option value="Project.App.models.Patient.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myAdditionalRequiredHtmlAttributes" value="date,openPicker" />
+    </inspection_tool>
+  </profile>
+</component>
